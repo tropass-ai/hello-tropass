@@ -1,0 +1,27 @@
+{
+  "model_input": {
+    "text_input": ["Тут ваш текст"],
+    "selector_input": ["Выбор +100500"],
+    "number_input": [123.0],
+    "slyder_input": [8.0],
+    "checkbox_input": [true],
+    "multi-select_input": ["Выбор 1", "Выбор 2"],
+    "selector-slider_input": ["Выбор 1", "2"],
+    "date_input": ["2025-11-17"],
+    "json_input": ["{\"ключ\": \"значение\", \"число\": 42}"],
+    "input_file": ["/var/model-temp-files/<request-id>/request/image.png"],
+    "multi-file_input": [
+      "/var/model-temp-files/<request-id>/request/image.png",
+      "/var/model-temp-files/<request-id>/request/metadata.json"
+    ],
+    "voice_input": ["/var/model-temp-files/<request-id>/request/voice.wav"],
+    "request_metadata": {
+      "user_id": "00000000-0000-0000-0000-000000000000",
+      "locale": "ru",
+      "user_api_token": "<token>"
+    }
+  },
+  "common_resources": {
+    "files_directory_path": "/srv/www/temp/<request-id>/response"
+  }
+}

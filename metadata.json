@@ -1,0 +1,145 @@
+{
+  "model_name": "hello_tropass",
+  "model_service": "Демо модель для разработчиков",
+  "inputs": [
+    {
+      "indicator_name": "text_input",
+      "display_field_name": "Текст (text) с дефолтным значением",
+      "indicator_type": "text",
+      "is_required": true,
+      "default_value": "Привет, ТРОПАСС!"
+    },
+    {
+      "indicator_name": "selector_input",
+      "display_field_name": "Селектор (dropdown)",
+      "indicator_type": "dropdown",
+      "possible_values": ["Выбор 1", "Выбор 2", "Выбор +100500"],
+      "default_value": "Выбор 1"
+    },
+    {
+      "indicator_name": "number_input",
+      "display_field_name": "Число (number)",
+      "indicator_type": "number",
+      "default_value": "0.42"
+    },
+    {
+      "indicator_name": "slyder_input",
+      "display_field_name": "Число со слайдером (number + slider)",
+      "indicator_type": "number",
+      "min_value": -20,
+      "max_value": 20,
+      "ui_elem_type": "slider"
+    },
+    {
+      "indicator_name": "checkbox_input",
+      "display_field_name": "Чекбокс (checkbox)",
+      "indicator_type": "checkbox",
+      "default_value": "True"
+    },
+    {
+      "indicator_name": "multi-select_input",
+      "display_field_name": "Мультиселект (multi-select)",
+      "indicator_type": "multi-select",
+      "possible_values": ["Выбор 1", "Выбор 2", "Выбор +100500"],
+      "default_value": "[\"Выбор +100500\",\"Выбор 1\"]"
+    },
+    {
+      "indicator_name": "selector-slider_input",
+      "display_field_name": "Селектор + слайдер (selector-slider)",
+      "indicator_type": "selector-slider",
+      "possible_values": ["Выбор 1", "Выбор 2", "Выбор +100500"],
+      "min_value": -20,
+      "max_value": 20,
+      "ui_elem_type": "slider",
+      "default_value": "[\"Выбор +100500\",1]"
+    },
+    {
+      "indicator_name": "date_input",
+      "display_field_name": "Дата (date)",
+      "indicator_type": "date",
+      "is_required": false
+    },
+    {
+      "indicator_name": "json_input",
+      "display_field_name": "JSON (json)",
+      "indicator_type": "json",
+      "is_required": false
+    },
+    {
+      "indicator_name": "input_file",
+      "display_field_name": "Файл (file), только png и jpg",
+      "indicator_type": "file",
+      "is_required": false,
+      "allowed_file_extensions": ["png", "jpg"]
+    },
+    {
+      "indicator_name": "multi-file_input",
+      "display_field_name": "Несколько файлов (multi-file)",
+      "indicator_type": "multi-file",
+      "is_required": false
+    },
+    {
+      "indicator_name": "voice_input",
+      "display_field_name": "Диктофон (voice)",
+      "indicator_type": "voice",
+      "is_required": false
+    }
+  ],
+  "outputs": [
+    {
+      "indicator_name": "text_output",
+      "display_result_name": "Текстовая панель (text)",
+      "indicator_type": "text"
+    },
+    {
+      "indicator_name": "series_output",
+      "display_result_name": "График с линиями (series)",
+      "indicator_type": "series"
+    },
+    {
+      "indicator_name": "diagram_output",
+      "display_result_name": "Колончатая диаграмма (diagram)",
+      "indicator_type": "diagram"
+    },
+    {
+      "indicator_name": "dumbbell_output",
+      "display_result_name": "График «было-стало» (dumbbell)",
+      "indicator_type": "dumbbell"
+    },
+    {
+      "indicator_name": "bd_output",
+      "display_result_name": "Листалка (bd)",
+      "indicator_type": "bd"
+    },
+    {
+      "indicator_name": "polarLine_output",
+      "display_result_name": "Паутинка (polarLine)",
+      "indicator_type": "polarLine"
+    },
+    {
+      "indicator_name": "polarColumn_output",
+      "display_result_name": "Полярная диаграмма (polarColumn)",
+      "indicator_type": "polarColumn"
+    },
+    {
+      "indicator_name": "donut_output",
+      "display_result_name": "Пончик (donut)",
+      "indicator_type": "donut"
+    },
+    {
+      "indicator_name": "images_output",
+      "display_result_name": "Картинки (image)",
+      "indicator_type": "image"
+    },
+    {
+      "indicator_name": "video_output",
+      "display_result_name": "Видео (video)",
+      "indicator_type": "video"
+    },
+    {
+      "indicator_name": "file_output",
+      "display_result_name": "Файлы для скачивания (file)",
+      "indicator_type": "file"
+    }
+  ]
+}

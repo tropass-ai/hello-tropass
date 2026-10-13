@@ -1,0 +1,102 @@
+ЛИЦЕНЗИЯ НА ИСПОЛЬЗОВАНИЕ ШАБЛОНА «hello-tropass»
+(TROPASS Platform Use License)
+
+Правообладатель: ООО «Симулятор Будущего ТРОПАСС» («Правообладатель»)
+© 2026 ООО «Симулятор Будущего ТРОПАСС». Все права защищены, кроме прав, прямо предоставленных ниже.
+Контакт: dev@tropass.me
+
+Загружая, копируя, изменяя или иным образом используя Код, вы («Лицензиат») принимаете условия этой Лицензии.
+
+1. ОПРЕДЕЛЕНИЯ
+1.1. «Код» - файлы этого репозитория, кроме Сторонних материалов (п. 7).
+1.2. «Платформа» - платформа ТРОПАСС, принадлежащая Правообладателю или эксплуатируемая им, включая её тестовые, предпроизводственные и промышленные стенды.
+1.3. «Сервис» - программа, предназначенная для запуска на Платформе и использующая для этого библиотеку tropass-sdk.
+1.4. «Производная работа» - любое изменение Кода, а также любой Сервис, в который включён Код или его существенная часть.
+
+2. ПРЕДОСТАВЛЯЕМЫЕ ПРАВА
+2.1. Правообладатель предоставляет Лицензиату неисключительную, безвозмездную, непередаваемую лицензию на использование, копирование и изменение Кода и создание Производных работ исключительно для разработки, тестирования и эксплуатации Сервисов на Платформе.
+2.2. Локальный запуск Кода или Производной работы на компьютере Лицензиата допускается только для разработки и тестирования Сервиса, предназначенного для Платформы (в том числе запуск тестов и локального сервера).
+
+3. ОГРАНИЧЕНИЯ
+Без письменного разрешения Правообладателя Лицензиат не вправе:
+3.1. запускать Код или Производные работы в промышленной эксплуатации вне Платформы;
+3.2. адаптировать Код или Производные работы для работы на другой платформе либо заменять tropass-sdk или Платформу совместимыми заменителями;
+3.3. распространять Код или Производные работы как самостоятельный продукт, в составе других продуктов или сервисов, кроме передачи на Платформу и случаев, указанных в п. 4;
+3.4. использовать Код для создания или развития платформы, конкурирующей с Платформой;
+3.5. удалять или изменять уведомления об авторском праве и текст этой Лицензии.
+
+4. РАСПРОСТРАНЕНИЕ
+4.1. Копии Кода и Производные работы можно передавать другим лицам (в том числе публиковать форки и копии на GitHub) только вместе с текстом этой Лицензии и только для целей, указанных в п. 2.
+4.2. Получатель Кода или Производной работы получает права от Правообладателя на условиях этой Лицензии; Лицензиат не вправе предоставлять получателю более широкие права.
+
+5. ВАШ СОБСТВЕННЫЙ КОД
+Код, который Лицензиат написал самостоятельно и который не является копией или существенной частью Кода, принадлежит Лицензиату; Правообладатель не получает на него никаких прав. Условия этой Лицензии распространяются на ту часть Производной работы, которая является Кодом.
+
+6. ТОВАРНЫЕ ЗНАКИ
+Эта Лицензия не предоставляет прав на название «ТРОПАСС», логотипы и иные средства индивидуализации Правообладателя, кроме указания происхождения Кода.
+
+7. СТОРОННИЕ МАТЕРИАЛЫ
+Зависимости (в том числе pandas, tropass-sdk) и файлы в каталоге output_examples/ могут распространяться на собственных условиях. Эта Лицензия не предоставляет прав на такие материалы.
+
+8. ОТСУТСТВИЕ ГАРАНТИЙ И ОТВЕТСТВЕННОСТЬ
+8.1. Код предоставляется «как есть», без каких-либо гарантий, явных или подразумеваемых, включая гарантии пригодности для конкретной цели.
+8.2. В максимальной степени, допустимой применимым правом, Правообладатель не отвечает за убытки и иной ущерб, возникшие в связи с использованием или невозможностью использования Кода.
+
+9. ПРЕКРАЩЕНИЕ
+Права по этой Лицензии прекращаются автоматически при нарушении её условий. Правообладатель может восстановить права после устранения нарушения.
+
+10. ПРИМЕНИМОЕ ПРАВО
+Эта Лицензия регулируется ЗАКОНОДАТЕЛЬСТВОМ ЮРИСДИКЦИИ ПРАВООБЛАДАТЕЛЯ. Споры решаются В СУДЕ ПО МЕСТУ НАХОЖДЕНИЯ ПРАВООБЛАДАТЕЛЯ.
+
+--------------------------------------------------------------------------------
+ENGLISH TRANSLATION (for convenience; in case of discrepancy the Russian text prevails)
+--------------------------------------------------------------------------------
+
+TROPASS PLATFORM USE LICENSE for the "hello-tropass" template
+
+Licensor: OOO "Simulyator Budushchego TROPASS" (Limited Liability Company "Simulator of the Future TROPASS") (the "Licensor")
+(c) 2026 OOO "Simulyator Budushchego TROPASS" (Limited Liability Company "Simulator of the Future TROPASS"). All rights reserved except the rights expressly granted below.
+Contact: dev@tropass.me
+
+By downloading, copying, modifying or otherwise using the Code, you (the "Licensee") accept the terms of this License.
+
+1. DEFINITIONS
+1.1. "Code" means the files of this repository, except Third-Party Materials (section 7).
+1.2. "Platform" means the TROPASS platform owned or operated by the Licensor, including its test, staging and production environments.
+1.3. "Service" means a program intended to run on the Platform and using the tropass-sdk library for that purpose.
+1.4. "Derivative Work" means any modification of the Code and any Service that includes the Code or a substantial part of it.
+
+2. GRANT OF RIGHTS
+2.1. The Licensor grants the Licensee a non-exclusive, royalty-free, non-transferable license to use, copy and modify the Code and to create Derivative Works solely for developing, testing and operating Services on the Platform.
+2.2. Running the Code or a Derivative Work locally on the Licensee's computer is permitted only to develop and test a Service intended for the Platform (including running tests and a local server).
+
+3. RESTRICTIONS
+Without the Licensor's written permission, the Licensee may not:
+3.1. run the Code or Derivative Works in production outside the Platform;
+3.2. adapt the Code or Derivative Works to run on another platform, or replace tropass-sdk or the Platform with compatible substitutes;
+3.3. distribute the Code or Derivative Works as a standalone product or as part of other products or services, except by deploying to the Platform and as provided in section 4;
+3.4. use the Code to create or develop a platform that competes with the Platform;
+3.5. remove or alter copyright notices or the text of this License.
+
+4. DISTRIBUTION
+4.1. Copies of the Code and Derivative Works may be passed to others (including publishing forks and copies on GitHub) only together with the text of this License and only for the purposes stated in section 2.
+4.2. A recipient of the Code or a Derivative Work receives rights from the Licensor under this License; the Licensee may not grant the recipient broader rights.
+
+5. YOUR OWN CODE
+Code that the Licensee wrote independently and that is not a copy or a substantial part of the Code belongs to the Licensee; the Licensor acquires no rights in it. The terms of this License apply to the portion of a Derivative Work that is the Code.
+
+6. TRADEMARKS
+This License does not grant rights to the name "TROPASS", logos or other identifiers of the Licensor, except for indicating the origin of the Code.
+
+7. THIRD-PARTY MATERIALS
+Dependencies (including pandas and tropass-sdk) and files in the output_examples/ directory may be distributed under their own terms. This License grants no rights to such materials.
+
+8. NO WARRANTY; LIABILITY
+8.1. The Code is provided "as is", without warranty of any kind, express or implied, including fitness for a particular purpose.
+8.2. To the maximum extent permitted by applicable law, the Licensor is not liable for any loss or damage arising from the use of or inability to use the Code.
+
+9. TERMINATION
+Rights under this License terminate automatically upon breach of its terms. The Licensor may reinstate the rights after the breach is cured.
+
+10. GOVERNING LAW
+This License is governed by LAW OF THE LICENSOR'S JURISDICTION. Disputes are resolved IN THE COURT AT THE LICENSOR'S LOCATION.
