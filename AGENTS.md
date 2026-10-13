@@ -32,7 +32,7 @@ deploy/            # archive.zip, metadata.json, DEPLOY.md для загрузк
 }
 ```
 
-- `model_name` — латиница, уникальное; совпадает с названием модели на платформе и с `model_name` в `ModelServer`. `model_service` — название для пользователей.
+- `model_name` - совпадает с названием модели на платформе и с `model_name` в `ModelServer`. `model_service` — название для пользователей.
 - `python_version` необязателен: `3.10`–`3.14`. `system_dependencies.extra_apt_packages` — apt-пакеты (ffmpeg, pandoc, poppler-utils, libgomp1 и т.п.).
 - Вход: `indicator_name` (ключ в `model_input`), `display_field_name`, `indicator_type`, `is_required`, `default_value`, `possible_values` (для селекторов), `allowed_file_extensions` (для файлов), `min_value`/`max_value`/`ui_elem_type: "slider"` (слайдер — это `number`).
 - Типы входов: `text`, `date`, `dropdown` (+`possible_values`), `number`, `checkbox`, `file`, `multi-file`, `multi-select` (+`possible_values`), `voice`, `selector-slider`, `json`.
